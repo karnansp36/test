@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Acomponent from "./components/propse/Acomponent"
+import New from "./components/New"
 function App() {
   let user = {name:'john', age:30}
   return (
@@ -16,7 +17,7 @@ function App() {
                   <Route path="/contact" element={<Contact/>} />
                   
          </Routes>
-        <Acomponent/>
+       
     </>
   )
 }

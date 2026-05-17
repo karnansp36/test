@@ -5,7 +5,7 @@ export default function Bcomponent() {
   return (
     <div>
         <h1>Bcomponent</h1>
-        <Ccomponent />
+        <Ccomponent user="hello"/>
     </div>
   )
 }
