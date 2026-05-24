@@ -1,0 +1,76 @@
+.container {
+  border: 2px solid #9b59b6;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f5f1fa;
+  margin: 20px 0;
+}
+
+.loading {
+  color: #3498db;
+  font-style: italic;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.error {
+  background-color: #fadbd8;
+  border: 1px solid #e74c3c;
+  padding: 15px;
+  border-radius: 5px;
+  color: #c0392b;
+}
+
+.error p {
+  margin: 0 0 10px 0;
+}
+
+.error button {
+  padding: 8px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.error button:hover {
+  background-color: #c0392b;
+}
+
+.userData {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #9b59b6;
+}
+
+.userData p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.userData button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.userData button:hover {
+  background-color: #8e44ad;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}

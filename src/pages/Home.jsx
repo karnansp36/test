@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
+import UseRefExample from '../components/UseRefExample';
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
   const handleChange = (e) => {
     setData({...data, [e.target.name]: e.target.value})
     console.log(data)
+    console.log(e)
   }
 
   const handleSubmit = async (e) => {
@@ -68,6 +70,7 @@ export default function Home() {
           ))
         }
         <button >Fetchdata</button>
+        <UseRefExample />
     </div>
   )
 }

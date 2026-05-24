@@ -1,0 +1,113 @@
+.container {
+  border: 2px solid #2ecc71;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0fdf4;
+  margin: 20px 0;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.addBtn {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #27ae60;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filters button:hover {
+  background-color: #ecf0f1;
+}
+
+.activeFilter {
+  background-color: #2ecc71 !important;
+  color: white !important;
+  border-color: #2ecc71 !important;
+}
+
+.todoList {
+  list-style: none;
+  padding: 0;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+}
+
+.todoItem input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.todoItem span {
+  flex: 1;
+  word-break: break-word;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.deleteBtn {
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s;
+}
+
+.deleteBtn:hover {
+  background-color: #c0392b;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}

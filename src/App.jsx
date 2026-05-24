@@ -6,17 +6,20 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Acomponent from "./components/propse/Acomponent"
 import New from "./components/New"
+import UseRefExample from "./components/UseRefExample"
+import Counter from "./components/Counter"
 function App() {
   let user = {name:'john', age:30}
   return (
     <>
    
          <Routes>
-                 <Route path="/" element={<Home/>} />
+                 <Route path="/" element={<Counter/>} />
                   <Route path="/about" element={<Navbar/>} />
                   <Route path="/contact" element={<Contact/>} />
                   
          </Routes>
+                  <Contact/>
        
     </>
   )
